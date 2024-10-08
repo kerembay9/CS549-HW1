@@ -1,1 +1,1 @@
-[Homework1.pdf](Homework1.pdf)
+<iframe src="Homework1.pdf" width="600" height="400"></iframe>
