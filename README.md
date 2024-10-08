@@ -137,36 +137,6 @@ Our job now is to derive the translational Jacobian of this simple manipulator. 
 served in the lecture, the translational Jacobian is a matrix relating how a change in
 end-effector position is related to changes in joint angles.
 
-```
-dApC=
-```
-```
-∂f(q)
-∂q
-```
-```
-dq=J(q)dq (9)
-```
-If you are not familiar with vector calculus, you can write it down even more explicitly
-as:
-
-```
-J(q) =
-```
-```
-∂f(q)
-∂q
-```
-### =
-
-### 
-
-```
-∂x/∂q 0 ∂x/∂q 1
-∂y/∂q 0 ∂y/∂q 1
-```
-### 
-
 ### (10)
 
 NOTE:Don’t forget, in our simulation, the z-axis equals the x-axis of the above figure,
