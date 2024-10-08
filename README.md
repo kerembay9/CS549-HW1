@@ -1,7 +1,7 @@
 # CS449/549: Learning for Robotics
 
 ## Certain parts/equations may have been shown incorrectly, to see the actual document, check [Homework1.pdf](Homework1.pdf)
-
+## For more information on Quaternions, I found this website useful: https://danceswithcode.net/engineeringnotes/quaternions/quaternions.html
 Bilkent University
 Fall 2024
 Due date: October 20
