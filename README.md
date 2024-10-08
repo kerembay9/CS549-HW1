@@ -1,10 +1,11 @@
-## CS449/549: Learning for Robotics
+# CS449/549: Learning for Robotics
 
-```
+## Certain parts/equations may have been shown incorrectly, to see the actual document, check [Homework1.pdf](Homework1.pdf)
+
 Bilkent University
 Fall 2024
 Due date: October 20
-```
+
 # Homework 1
 
 # Submission
@@ -74,9 +75,9 @@ you can inspect "kitchen.g" file.
 In this question, you will use the two-link planar manipulator which we created in the
 first tutorial.
 
-```
+
 Figure 1: Two link planar manipulator
-```
+
 - In the monogram notation introduced in the slides, the forward kinematics of the
     manipulator refers to writing down the 2D position of the red point in space with
     respect to the green point,ApC, as a function of joint angles(q 0 ,q 1 ).
@@ -97,7 +98,7 @@ and make them 1m long in the Z axis. (You shouldn’t change the radius of the l
 Change the size of spheres (zero and end-effector) to 0.6.)Then find the correct joint
 configurations.Finally, add the target object using the code below.
 
-```
+
 target: {
 X: "t(0 1 1) d(0 0 0 1)",
 shape: box,
@@ -106,7 +107,7 @@ color: [1 1 0],
 mass: .1,
 contact: true
 }
-```
+
 The final state of the system should be similar to the figure below:
 
 Figure 2: This is the final state of the system. The green sphere is the end effector, yellow
@@ -122,22 +123,21 @@ When you run your code, you should see that in every single run, the end effecto
 be placed inside of the target. (You can use "always on top" to fix the ConfigurationViewer
 window for convenience.)
 
-```
+
 Figure 3: Some example results.
-```
+
 Part C. Write down the 2x2 Jacobian matrix based on the forward kinematics you
 have derived above. Now that we have the forward kinematics function that gives us our
 end-effector position given the joint angles.
 
-```
+
 ApC=f(q) (8)
-```
+
 
 Our job now is to derive the translational Jacobian of this simple manipulator. As ob-
 served in the lecture, the translational Jacobian is a matrix relating how a change in
 end-effector position is related to changes in joint angles.
 
-### (10)
 
 NOTE:Don’t forget, in our simulation, the z-axis equals the x-axis of the above figure,
 and the x-axis = 0.
